@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<meta charset="UTF-8">
+
+<head>
+
+<body>
+<button id = "button1" class = "btn btn-primary">CLick Me</button>
+<button id = "button2" class = "btn btn-success">Hover Me</button><button id = "button3" class = "btn btn-danger">Danger</button>
+
+<h1>hello world</h1>
+	
+	<script>
+
+
+
+document.getElementById('button1').onclick = function() {
+
+clickMeFunction()
+
+};
+
+function clickMeFunction() {
+
+alert('Hello from the best function,yayyyy');
+
+
+
+}
+
+	document.getElementById('button2').onhover = function() {
+
+hoverMeFunction()
+
+};
+
+function hoverMeFunction() {
+
+alert('Im here Hover');
+
+
+
+}
+
+document.getElementById('button3').onclick = function() {
+
+dangerMeFunction()
+
+};
+
+function dangerMeFunction() {
+
+alert('Danger');
+
+
+
+}
+
+
+
+	</script>
+
+
+
+</body>
+</head>
+</html>
