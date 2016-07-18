@@ -3,14 +3,47 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <meta charset="UTF-8">
 
+
 <head>
 
 <body>
 	<title>Tyrome</title>
-<button id = "button1" class = "btn btn-primary">CLick Me</button>
-<button id = "button2" class = "btn btn-success">Hover Me</button><button id = "button3" class = "btn btn-danger">Danger</button>
+	<div class = "section1">
+		<h1>Home</h1>
+		<p>Welcome To My Website</p>
+		<button id = "button1" class = "btn btn-primary">CLick Me</button>
+		<hr>
 
-<h1>hello world</h1>
+	</div>
+
+		<div>
+			<h1>About</h1>
+			<p>This Is About Me</p>
+			<button id = "button2" class = "btn btn-success">Hover Me</button>
+			<hr>
+
+	</div>
+
+			<div>
+				<h1>Portfolio</h1>
+				<p>Awesome Project</p>
+				<button id = "button3" class = "btn btn-danger">Danger</button>
+				<hr>
+
+
+	</div>
+
+
+<div>
+	<h1>Contact</h1>
+	<p>Anytime</p>
+	<button id = "button4" class = "btn btn-primary">Success</button>
+	<hr>
+</div>
+
+
+
+
 	
 	<script>
 
@@ -57,6 +90,21 @@ alert('Danger');
 
 
 }
+
+document.getElementById('button4').onclick = function() {
+
+successMeFunction()
+
+};
+
+function successMeFunction() {
+
+alert('Success');
+
+
+
+}
+
 
 
 
